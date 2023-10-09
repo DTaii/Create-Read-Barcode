@@ -2,7 +2,7 @@ import barcode
 from barcode import generate
 from barcode.writer import ImageWriter
 
-# Create an EAN-13 barcode
+# Create an code128 barcode
 ean = barcode.get_barcode_class('code128')
 
 # Data you want to encode as a barcode
